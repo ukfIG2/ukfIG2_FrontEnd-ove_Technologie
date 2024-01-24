@@ -1,20 +1,17 @@
 <template>
     <div>
-        <h1>Welcome to the Home View!</h1>
-        <!-- Add your content here -->
-        <Tovar />
+        <Clanky />
     </div>
 </template>
 
 <script>
-import Tovar from '@/components/Tovar.vue';
+import Clanky from '@/components/Clanky.vue';
 
 export default {
     name: 'DomovView',
     components: {
-        Tovar
+        Clanky
     },
-    // Add your component logic here
 }
 </script>
 

@@ -1,15 +1,13 @@
 <template>
-    <div>
-        <Kontakt />
-    </div>
+    <Login />
 </template>
 
 <script>
-import Kontakt from '@/components/Kontakt.vue';
+import Login from '@/components/Login.vue';
 
 export default {
     components: {
-        Kontakt,
+        Login
     },
     // Your script code here
 }
