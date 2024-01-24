@@ -39,4 +39,14 @@
     <servlet-name>Objednavky_servlet</servlet-name>
     <url-pattern>/Objednavky_servlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SELECTtovarServlet</display-name>
+    <servlet-name>SELECTtovarServlet</servlet-name>
+    <servlet-class>SELECTtovarServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SELECTtovarServlet</servlet-name>
+    <url-pattern>/SELECTtovarServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
